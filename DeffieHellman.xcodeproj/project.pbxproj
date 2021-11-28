@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A195A4E2754375A002583FC /* Image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image0.png; sourceTree = "<group>"; };
 		3AFDA41527542B4500EBC24F /* DeffieHellman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DeffieHellman; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFDA41827542B4500EBC24F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A195A4D2754374A002583FC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3A195A4E2754375A002583FC /* Image0.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		3AFDA40C27542B4500EBC24F = {
 			isa = PBXGroup;
 			children = (
+				3A195A4D2754374A002583FC /* Image */,
 				3AFDA41727542B4500EBC24F /* DeffieHellman */,
 				3AFDA41627542B4500EBC24F /* Products */,
 			);
